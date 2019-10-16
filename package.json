@@ -1,0 +1,16 @@
+{
+  "name": "css_projects",
+  "version": "1.0.0",
+  "description": "my css projects",
+  "main": "index.js",
+  "author": "Arek Machalica",
+  "license": "MIT",
+  "scripts": {
+    "start:simple_app": "http-server simple_page",
+    "start:simple_app:styles": "sass --watch simple_page/styles:simple_page/dist"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "http-server": "^0.11.1"
+  }
+}
