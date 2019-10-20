@@ -1,0 +1,16 @@
+{
+  "name": "simple_page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pokiujf",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "http-server .",
+    "start:styles": "sass --watch styles:dist"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "http-server": "^0.11.1"
+  }
+}
