@@ -9,215 +9,233 @@
 </head>
 <body>
 
-<header class="header">
-  <img src="assets/logo.png">
+<div class="container">
+  <header class="header">
+    <img class="header__logo" src="assets/logo.png">
 
-  <div class="header__navigation">
-    <span class="header__link">home</span>
-    <span class="header__link">about</span>
-    <span class="header__link">features</span>
-    <span class="header__link">pages</span>
-    <span class="header__link">shop</span>
-    <span class="header__link">blog</span>
-    <span class="header__link">contact</span>
+    <div class="header__navigation">
+      <div class="header__links-wrapper">
+        <div class="header__link">home</div>
+        <div class="header__link">about</div>
+        <div class="header__link">features</div>
+        <div class="header__link">pages</div>
+        <div class="header__link">shop</div>
+        <div class="header__link">blog</div>
+        <div class="header__link">contact</div>
+      </div>
+      <div class="header__icons-wrapper">
+        <i class="fas fa-shopping-basket"></i>
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="main">
+    <div class="main__mission">
+      transforming enterprises with computer vision ai
+    </div>
+    <button class="button--cta">get started</button>
   </div>
 
-  <div class="header__tools">
-    <i class="fas fa-shopping-basket"></i>
-    <i class="fas fa-search"></i>
+  <div class="partners">
+    <div><i class="fab fa-accusoft"></i>accusoft</div>
+    <div><i class="fab fa-adobe"></i>adobe</div>
+    <div><i class="fab fa-bitbucket"></i>bitbucket</div>
+    <div><i class="fab fa-battle-net"></i>battlenet</div>
+    <div><i class="fab fa-cc-amex"></i>american express</div>
   </div>
-</header>
 
-<div class="main">
-  <div class="main__mission">
-    transforming enterprises with computer vision ai
+  <div class="feature">
+    <img class="feature__image">
+    <div class="feature__description-block">
+      <div class="feature__name">pose estimation</div>
+      <h2 class="feature__title">custom face recognition pose detection</h2>
+      <div class="feature__description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nisl nunc mi ipsum faucibus vitae aliquet nec
+          ullamcorper sit. Ac odio tempor orci dapibus. Sed risus pretium quam vulputate dignissim suspendisse in est
+          ante. Vehicula ipsum a arcu cursus vitae congue mauris.</p>
+        <p>Nunc aliquet bibendum enim facilisis gravida. Et tortor at risus viverra adipiscing at in. Ullamcorper eget
+          nulla facilisi etiam dignissim. Congue quisque egestas diam in arcu cursus euismod quis. Nunc congue nisi
+          vitae
+          suscipit tellus. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Interdum posuere lorem ipsum
+          dolor
+          sit amet consectetur. Pellentesque massa placerat duis ultricies.</p>
+      </div>
+      <button class="button--cta">check it out</button>
+    </div>
   </div>
-  <button class="button--cta">get started</button>
-</div>
 
-<div class="partners">
-  <div><i class="fab fa-accusoft"></i>accusoft</div>
-  <div><i class="fab fa-adobe"></i>adobe</div>
-  <div><i class="fab fa-bitbucket"></i>bitbucket</div>
-  <div><i class="fab fa-battle-net"></i>battlenet</div>
-  <div><i class="fab fa-cc-amex"></i>american express</div>
-</div>
+  <div class="feature">
+    <div class="feature__description-block">
+      <div class="feature__name">object detection</div>
+      <h2 class="feature__title">the most personalized object detection</h2>
+      <div class="feature__description">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nisl nunc mi ipsum faucibus vitae aliquet nec
+          ullamcorper sit. Ac odio tempor orci dapibus. Sed risus pretium quam vulputate dignissim suspendisse in est
+          ante. Vehicula ipsum a arcu cursus vitae congue mauris.
+        </p>
+        <p>
+          Nunc aliquet bibendum enim facilisis gravida. Et tortor at risus viverra adipiscing at in. Ullamcorper eget
+          nulla facilisi etiam dignissim. Congue quisque egestas diam in arcu cursus euismod quis. Nunc congue nisi
+          vitae
+          suscipit tellus. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Interdum posuere lorem ipsum
+          dolor
+          sit amet consectetur. Pellentesque massa placerat duis ultricies.
+        </p>
+      </div>
+      <button class="button--cta">check it out</button>
+    </div>
+    <img class="feature__image">
+  </div>
 
-<div class="feature">
-  <img class="feature__image">
-  <div class="feature__description-block">
-    <div class="feature__name">pose estimation</div>
-    <h2 class="feature__title">custom face recognition pose detection</h2>
-    <div class="feature__description">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nisl nunc mi ipsum faucibus vitae aliquet nec
-        ullamcorper sit. Ac odio tempor orci dapibus. Sed risus pretium quam vulputate dignissim suspendisse in est
-        ante. Vehicula ipsum a arcu cursus vitae congue mauris.</p>
-      <p>Nunc aliquet bibendum enim facilisis gravida. Et tortor at risus viverra adipiscing at in. Ullamcorper eget
-        nulla facilisi etiam dignissim. Congue quisque egestas diam in arcu cursus euismod quis. Nunc congue nisi vitae
-        suscipit tellus. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Interdum posuere lorem ipsum dolor
-        sit amet consectetur. Pellentesque massa placerat duis ultricies.</p>
+  <div class="group group--highlighted">
+    <div class="group__name">image segmentation</div>
+    <h2 class="group__header">deep learning model for semantic image segmentation</h2>
+
+    <div class="group__multi-image">
+      <img class="group__image">
+      <img class="group__image">
+      <img class="group__image">
     </div>
     <button class="button--cta">check it out</button>
   </div>
-</div>
 
-<div class="feature">
-  <div class="feature__description-block">
-    <div class="feature__name">object detection</div>
-    <h2 class="feature__title">the most personalized object detection</h2>
-    <div class="feature__description">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Venenatis urna cursus eget nunc scelerisque. Nisl nunc mi ipsum faucibus vitae aliquet nec
-        ullamcorper sit. Ac odio tempor orci dapibus. Sed risus pretium quam vulputate dignissim suspendisse in est
-        ante. Vehicula ipsum a arcu cursus vitae congue mauris.
-      </p>
-      <p>
-        Nunc aliquet bibendum enim facilisis gravida. Et tortor at risus viverra adipiscing at in. Ullamcorper eget
-        nulla facilisi etiam dignissim. Congue quisque egestas diam in arcu cursus euismod quis. Nunc congue nisi vitae
-        suscipit tellus. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Interdum posuere lorem ipsum dolor
-        sit amet consectetur. Pellentesque massa placerat duis ultricies.
-      </p>
-    </div>
-    <button class="button--cta">check it out</button>
-  </div>
-  <img class="feature__image">
-</div>
-
-<div class="group group--highlighted">
-  <div class="group__name">image segmentation</div>
-  <h2 class="group__header">deep learning model for semantic image segmentation</h2>
-
-  <div class="group__multi-image">
-    <img class="group__image">
-    <img class="group__image">
-    <img class="group__image">
-  </div>
-  <button class="button--cta">check it out</button>
-</div>
-
-<div class="group">
-  <div class="group__header">
-    <div>
-      <div class="group__name">why computer vision</div>
-      <h2 class="group__title">computer vision ai</h2>
-    </div>
-    <div>
-      <button class="button--cta">view all services</button>
-    </div>
-  </div>
-  <div class="card__container">
-    <div class="card">
-      <i class="fab fa-smile"></i>
-      <h3 class="card__title">face recognition detection</h3>
-      <p class="card__description">
-        Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
-        aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
-      </p>
-    </div>
-    <div class="card">
-      <i class="fab fa-smile"></i>
-      <h3 class="card__title">face recognition detection</h3>
-      <p class="card__description">
-        Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
-        aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
-      </p>
-    </div>
-    <div class="card">
-      <i class="fab fa-smile"></i>
-      <h3 class="card__title">face recognition detection</h3>
-      <p class="card__description">
-        Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
-        aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
-      </p>
-    </div>
-    <div class="card">
-      <i class="fab fa-smile"></i>
-      <h3 class="card__title">face recognition detection</h3>
-      <p class="card__description">
-        Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
-        aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
-      </p>
-    </div>
-    <div class="card">
-      <i class="fab fa-smile"></i>
-      <h3 class="card__title">face recognition detection</h3>
-      <p class="card__description">
-        Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
-        aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
-      </p>
-    </div>
-    <div class="card">
-      <i class="fab fa-smile"></i>
-      <h3 class="card__title">face recognition detection</h3>
-      <p class="card__description">
-        Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
-        aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="group group--highlighted">
-  <div class="group__name">testimonials</div>
-  <h2 class="group__header">happy client reviews</h2>
-
-  <div class="testimonial__container">
-    <div class="testimonial">
-      <div class="testimonial__header">
-        <img class="testimonial__avatar">
-        <div>
-          <h4 class="testimonial__name">John Doe</h4>
-          <span class="testimonial__rank">CEO - Some Company</span>
-        </div>
+  <div class="group">
+    <div class="group__header">
+      <div>
+        <div class="group__name">why computer vision</div>
+        <h2 class="group__title">computer vision ai</h2>
       </div>
-      <p>
-        Vestibulum morbi blandit cursus risus at ultrices. Habitant morbi tristique senectus et. Rhoncus aenean vel elit scelerisque. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Fringilla urna porttitor rhoncus dolor purus.
-      </p>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star-half-alt"></i>
-      <i class="far fa-star"></i>
-    </div>
-    <div class="testimonial">
-      <div class="testimonial__header">
-        <img class="testimonial__avatar">
-        <div>
-          <h4 class="testimonial__name">John Doe</h4>
-          <span class="testimonial__rank">CEO - Some Company</span>
-        </div>
+      <div>
+        <button class="button--cta">view all services</button>
       </div>
-      <p>
-        Vestibulum morbi blandit cursus risus at ultrices. Habitant morbi tristique senectus et. Rhoncus aenean vel elit scelerisque. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Fringilla urna porttitor rhoncus dolor purus.
-      </p>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star-half-alt"></i>
-      <i class="far fa-star"></i>
     </div>
-    <div class="testimonial">
-      <div class="testimonial__header">
-        <img class="testimonial__avatar">
-        <div>
-          <h4 class="testimonial__name">John Doe</h4>
-          <span class="testimonial__rank">CEO - Some Company</span>
-        </div>
+    <div class="card__container">
+      <div class="card">
+        <i class="fab fa-smile"></i>
+        <h3 class="card__title">face recognition detection</h3>
+        <p class="card__description">
+          Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
+          aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
+        </p>
       </div>
-      <p>
-        Vestibulum morbi blandit cursus risus at ultrices. Habitant morbi tristique senectus et. Rhoncus aenean vel elit scelerisque. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Fringilla urna porttitor rhoncus dolor purus.
-      </p>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star"></i>
-      <i class="fas fa-star-half-alt"></i>
-      <i class="far fa-star"></i>
+      <div class="card">
+        <i class="fab fa-smile"></i>
+        <h3 class="card__title">face recognition detection</h3>
+        <p class="card__description">
+          Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
+          aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
+        </p>
+      </div>
+      <div class="card">
+        <i class="fab fa-smile"></i>
+        <h3 class="card__title">face recognition detection</h3>
+        <p class="card__description">
+          Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
+          aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
+        </p>
+      </div>
+      <div class="card">
+        <i class="fab fa-smile"></i>
+        <h3 class="card__title">face recognition detection</h3>
+        <p class="card__description">
+          Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
+          aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
+        </p>
+      </div>
+      <div class="card">
+        <i class="fab fa-smile"></i>
+        <h3 class="card__title">face recognition detection</h3>
+        <p class="card__description">
+          Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
+          aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
+        </p>
+      </div>
+      <div class="card">
+        <i class="fab fa-smile"></i>
+        <h3 class="card__title">face recognition detection</h3>
+        <p class="card__description">
+          Sit amet nulla facilisi morbi tempus iaculis urna. Amet mattis vulputate enim nulla
+          aliquet porttitor lacus luctus accumsan. Neque aliquam vestibulum morbi blandit cursus risus at.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="group group--highlighted">
+    <div class="group__name">testimonials</div>
+    <h2 class="group__header">happy client reviews</h2>
+
+    <div class="testimonial__container">
+      <div class="testimonial">
+        <div class="testimonial__header">
+          <img class="testimonial__avatar">
+          <div>
+            <h4 class="testimonial__name">John Doe</h4>
+            <span class="testimonial__rank">CEO - Some Company</span>
+          </div>
+        </div>
+        <p>
+          Vestibulum morbi blandit cursus risus at ultrices. Habitant morbi tristique senectus et. Rhoncus aenean vel
+          elit
+          scelerisque. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Fringilla urna
+          porttitor
+          rhoncus dolor purus.
+        </p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial__header">
+          <img class="testimonial__avatar">
+          <div>
+            <h4 class="testimonial__name">John Doe</h4>
+            <span class="testimonial__rank">CEO - Some Company</span>
+          </div>
+        </div>
+        <p>
+          Vestibulum morbi blandit cursus risus at ultrices. Habitant morbi tristique senectus et. Rhoncus aenean vel
+          elit
+          scelerisque. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Fringilla urna
+          porttitor
+          rhoncus dolor purus.
+        </p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial__header">
+          <img class="testimonial__avatar">
+          <div>
+            <h4 class="testimonial__name">John Doe</h4>
+            <span class="testimonial__rank">CEO - Some Company</span>
+          </div>
+        </div>
+        <p>
+          Vestibulum morbi blandit cursus risus at ultrices. Habitant morbi tristique senectus et. Rhoncus aenean vel
+          elit
+          scelerisque. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Fringilla urna
+          porttitor
+          rhoncus dolor purus.
+        </p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+      </div>
     </div>
   </div>
 </div>
-
-
 </body>
 </html>

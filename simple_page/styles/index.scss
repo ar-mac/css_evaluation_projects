@@ -1,5 +1,6 @@
-.header {
-  &__links-wrapper {
-    font-size: 2em;
-  }
+@import "header";
+@import "stolen_from_bootstrap";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
