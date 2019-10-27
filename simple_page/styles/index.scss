@@ -1,8 +1,9 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import "header";
-@import "stolen_from_bootstrap";
 @import "jumbo";
 
 * {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  font-size: 12px;
 }
