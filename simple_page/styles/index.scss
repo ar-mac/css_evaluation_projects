@@ -7,3 +7,8 @@
   box-sizing: border-box;
   font-size: 12px;
 }
+
+.top-background__container {
+  background: rgb(255,255,255);
+  background: linear-gradient(20deg, rgba(255,255,255,1) 55%, rgba(0,114,255,1) 87%);
+}
