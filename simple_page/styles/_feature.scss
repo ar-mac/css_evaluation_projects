@@ -1,7 +1,27 @@
 .feature {
+  margin-bottom: 5em;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 300px;
+  }
+
   &__name {
     text-transform: uppercase;
     color: rgba(116,203,227,1);
     font-weight: bolder;
+  }
+
+  &__title {
+    text-transform: capitalize;
+    font-size: 2.3rem;
+  }
+
+  &__image {
+    width: auto;
+    height: 300px;
+    margin-left: 20px;
   }
 }
