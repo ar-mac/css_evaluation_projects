@@ -1,1 +1,4 @@
-Each folder contains separate page/app for css evaluation.
+## To run the app
+- `yarn start`
+- `yarn start:styles`
+- See the result on `http://localhost:8080/`
