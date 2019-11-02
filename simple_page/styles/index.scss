@@ -1,6 +1,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "header";
 @import "jumbo";
+@import "button";
 
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +9,7 @@
   font-size: 12px;
 }
 
-.top-background__container {
+.gradient-background {
   background: rgb(255,255,255);
-  background: linear-gradient(20deg, rgba(255,255,255,1) 55%, rgba(0,114,255,1) 87%);
+  background: linear-gradient(25deg, rgba(255,255,255,1) 57%, rgba(0,114,255,1) 87%);
 }
